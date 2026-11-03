@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+
+    font-family: sans-serif;
+    background: #eeee;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    flex: 1; 
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 16px;
+    padding-left: 10%;
+}
+
+#ad{
+    color: white;
+    background-color: green;
+    padding: 30px 50px;
+    border-radius: 5px 20px 20px 5px;
+    border: none;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: auto auto;
+    padding-top: 40px;
+}
+
+#campo{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    flex-flow: row wrap;
+}
+
+.item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.item-icone{
+    flex: 20%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.item-nome{
+    flex: 55%;
+    font-size: 20px;
+
+}
+
+.item-botao{
+    flex: 24%;
+
+}
+
+.delet{
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+    border-radius: 5px 20px 20px 5px;
+    cursor: pointer;
+}
+
+.item.clicado{
+    background: rgb(212, 255, 212);
+}
+
+.item.clicado .item-nome{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.mdi-check-circle{
+    color: green;
+}
